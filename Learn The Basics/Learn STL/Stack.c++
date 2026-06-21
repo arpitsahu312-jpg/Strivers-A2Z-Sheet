@@ -2,6 +2,7 @@
 using namespace std;
  void explainStack()
  {
+   //LIFO
     stack<int> st;
     st.push(1); // {1}
     st.push(2); // {2,1}
