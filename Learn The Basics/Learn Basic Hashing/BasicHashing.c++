@@ -33,7 +33,7 @@ int number_hashing()
     return 0;
 }
 
-int main()
+int characte_hashing()
 {   int size;
     cout<<"Enter the size of array:";
     cin>>size;
@@ -66,6 +66,12 @@ int main()
     return 0;
 }
 
+int main()
+{
+    number_hashing();
+    characte_hashing();
+    return 0;
+}
 // The maximum size of integer array that can be declared inside main function is 10^6 and 10^7  as global.
 
 //The maximum size of boolean array that can be declared inside main function is 10^7 and 10^8 as global.
