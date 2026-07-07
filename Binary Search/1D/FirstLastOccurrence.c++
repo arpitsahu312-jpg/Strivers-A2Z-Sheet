@@ -11,7 +11,6 @@ vector<int> firtslastoccurrence(vector<int>&nums,int target)
    else{
         return {lb,ub-1};
       }
-   return {-1,-1};
  }
 
 int main()
