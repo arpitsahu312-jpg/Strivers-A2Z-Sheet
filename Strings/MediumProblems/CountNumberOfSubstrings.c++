@@ -1,10 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#include <bits/stdc++.h>
-using namespace std;
-
-
 int atMostKDistinct(string s, int k) {
     int left = 0, res = 0;
     unordered_map<char, int> freq;
