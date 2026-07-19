@@ -27,14 +27,9 @@ int countSubstrings(string s, int k) {
 
 int main()
 {
-    cout<<"Enter the length of string:";
-    int n;
-    cin>>n;
-    string str(n,' ');
-    for(int i=0;i<n;i++)
-    {
-        cin>>str[i];
-    }
+    cout<<"Enter the string:";
+    string str;
+    getline(cin,str);
     cout<<"Enter the value of k:";
     int k;
     cin>>k;
